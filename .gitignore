@@ -1,0 +1,22 @@
+# Tool caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+*.py[cod]
+
+# Test coverage output
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging / build output
+dist/
+build/
+*.egg-info/
+__pycache__/
+.idea/
+
+# Env
+.env.*
+!.env.example
+.venv/

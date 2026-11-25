@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  {% for post in posts %}
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <span class="me-2 author">{{ post.name }} {{ post.lastName }}</span>
+          <small class="text-muted">{{ post.date_posted }}</small>
+        </div>
+        <h2 class="article-title">{{ post.title }}</h2>
+        <p class="article-content">{{ post.content }}</p>
+      </div>
+    </article>
+  {% else %}
+    <div class="content-section">
+      <p class="text-muted mb-0">No posts yet.</p>
+    </div>
+  {% endfor %}
+{% endblock content %}
