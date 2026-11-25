@@ -1,7 +1,7 @@
 from fastapi import HTTPException, status
-from fastapi_blog.models.user_model import User
-from fastapi_blog.repositories.user_repository import UserRepository
-from fastapi_blog.schemas.user_create import UserCreate
+from helpdesk.models.user_model import User
+from helpdesk.repositories.user_repository import UserRepository
+from helpdesk.schemas.user_create import UserCreate
 
 
 class UserService:

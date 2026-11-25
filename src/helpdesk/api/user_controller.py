@@ -2,10 +2,10 @@ from typing import Annotated
 
 from fastapi import APIRouter, Depends, status
 
-from fastapi_blog.api.dependencies import get_user_service
-from fastapi_blog.schemas.user_create import UserCreate
-from fastapi_blog.schemas.user_response import UserResponse
-from fastapi_blog.services.user_service import UserService
+from helpdesk.api.dependencies import get_user_service
+from helpdesk.schemas.user_create import UserCreate
+from helpdesk.schemas.user_response import UserResponse
+from helpdesk.services.user_service import UserService
 
 router = APIRouter(prefix="/users", tags=["users"])
 

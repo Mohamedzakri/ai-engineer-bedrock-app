@@ -1,7 +1,7 @@
 from sqlalchemy import Integer, String
 from sqlalchemy.orm import Mapped, mapped_column
 
-from fastapi_blog.models.base import Base
+from helpdesk.models.base import Base
 
 
 class User(Base):

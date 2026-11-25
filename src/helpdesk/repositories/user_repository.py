@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
-from fastapi_blog.models.user_model import User
-from fastapi_blog.schemas.user_response import UserResponse
+from helpdesk.models.user_model import User
+from helpdesk.schemas.user_response import UserResponse
 
 
 class UserRepository:

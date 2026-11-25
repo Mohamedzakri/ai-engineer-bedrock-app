@@ -20,8 +20,8 @@ if database_url:
     config.set_main_option("sqlalchemy.url", database_url)
 
 
-import fastapi_blog.models.user_model
-from fastapi_blog.models.base import Base
+import helpdesk.models.user_model
+from helpdesk.models.base import Base
 
 target_metadata = Base.metadata
 # this is the Alembic Config object, which provides

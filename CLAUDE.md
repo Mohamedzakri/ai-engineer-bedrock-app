@@ -1,8 +1,8 @@
 ## Project: Helpdesk + Knowledge Base (evolving from fastapi_blog)
 
-> **Current state:** the package is still `src/fastapi_blog/` with a layer-based layout. Paths and
-> commands below describe the target after Week 1 of `docs/ROADMAP.md` (rename to `src/helpdesk/`,
-> feature layout). Until then, map them to the existing files. See `docs/AUDIT.md` for the gap.
+> **Current state:** the package is `src/helpdesk/` but still uses the layer-based layout from the
+> course (`api/`, `services/`, `repositories/`, …). Paths below describe the target feature layout
+> after Week 1 of `docs/ROADMAP.md`; until then, map them to the existing files. See `docs/AUDIT.md`.
 
 ### How Claude should work here — mentor mode
 - I am an experienced Java/Spring developer learning Python, FastAPI and AI engineering.

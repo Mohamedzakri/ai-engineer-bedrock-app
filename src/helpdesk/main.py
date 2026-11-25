@@ -2,7 +2,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from fastapi_blog.api.user_controller import router as user_router
+from helpdesk.api.user_controller import router as user_router
 
 
 @asynccontextmanager
